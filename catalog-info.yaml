@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "foofoo"
+  annotations:
+    sentry.io/project-slug: 'YOUR_PROJECT_SLUG'
+    jenkins.io/job-full-name: 'platform/foofoo'
+spec:
+  type: service
+  owner: 'platform:foofoo'
+  lifecycle: experimental
